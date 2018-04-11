@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+.exerciseApp{
+    position: relative;
+    left: 20%;
+    align-items: center;
+}
+
+.tableMain{
+    width: 720px;
+    margin-top: 50px;
+}
+
+.tableTitle{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 100;
+    position: relative;
+    left: 20%;
+}
+.tableContents{
+    margin-top: 50px;
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+}
+
+.userInput{
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 15px;
+    margin-right: 20px;
+    width: 120px;
+}
+
+.submitButton{
+    padding: 10px ;
+    font-size: 15px;
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.editButton{
+    float: left;
+    margin-right: 15px;
+    color: blue;
+    font-size: 15px;
+}
+
+
+.removeButton{
+    float: left;
+    color: red;
+    font-size: 15px;
+}
+
+
+.buttonRow{
+    width: 100px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
